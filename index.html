@@ -1,21 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#202737">
-  <title>CATENGINE — Build something legendary</title>
-  <style>
-    :root{--navy:#202737;--deep:#171e2b;--blue:#37a9d6;--cyan:#55d4e8;--orange:#ff9b51;--text:#344054;--muted:#748195;--paper:#fff;--pale:#f3f6f9}*{box-sizing:border-box}body{margin:0;background:var(--pale);font:15px/1.6 "Segoe UI",Arial,sans-serif;color:var(--text)}a{color:inherit}.topbar{background:var(--navy);border-bottom:3px solid var(--blue);color:#fff}.nav{max-width:1100px;margin:auto;padding:0 24px;min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:900;letter-spacing:1.5px;font-size:19px}.cat-icon{width:34px;height:34px;border-radius:8px;background:var(--orange);display:grid;place-items:center;color:var(--deep);font-size:20px;box-shadow:inset 0 -3px rgba(0,0,0,.12)}.nav-links{display:flex;gap:26px;align-items:center}.nav-links a{text-decoration:none;color:#c6d0dd;font-size:13px;font-weight:700}.nav-links a:hover,.nav-links a[aria-current=page]{color:#fff}.nav-links .join{padding:9px 15px;background:var(--blue);border-radius:4px;color:#fff}.hero{overflow:hidden;position:relative;background:linear-gradient(120deg,#222c3e 0%,#1b2638 56%,#233952 100%);color:white}.hero:after{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(85,212,232,.13);border-radius:50%;right:-110px;top:-150px;box-shadow:0 0 0 32px rgba(85,212,232,.035),0 0 0 68px rgba(85,212,232,.03)}.hero-inner{max-width:1100px;margin:auto;padding:86px 24px 94px;position:relative;z-index:1}.eyebrow{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--cyan);font-weight:800}.hero h1{font-size:clamp(42px,7vw,68px);line-height:1.06;letter-spacing:-2px;margin:17px 0 15px;max-width:660px}.hero h1 span{color:var(--cyan)}.hero p{max-width:550px;color:#c3ccda;font-size:17px;margin:0 0 28px}.actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-block;padding:12px 19px;text-decoration:none;border-radius:4px;font-weight:800;font-size:13px;transition:transform .15s,background .15s}.button:hover{transform:translateY(-2px)}.primary{background:var(--orange);color:#252c37;box-shadow:0 3px 0 #ce7134}.secondary{border:1px solid #66768c;color:#fff}.hero-note{margin-top:27px;color:#99a8ba;font-size:12px}.hero-note strong{color:#fff}.section{max-width:1100px;margin:auto;padding:58px 24px}.section-heading{text-align:center;margin:0 auto 32px;max-width:600px}.section-heading h2{font-size:27px;margin:0 0 7px;color:#293448}.section-heading p{margin:0;color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;padding:25px;border:1px solid #e4eaf0;border-radius:5px;box-shadow:0 3px 10px rgba(29,44,65,.04)}.card-icon{font-size:23px;width:43px;height:43px;border-radius:8px;background:#e7f6fb;display:grid;place-items:center;margin-bottom:14px}.card h3{margin:0 0 7px;color:#293448;font-size:17px}.card p{margin:0;color:var(--muted);font-size:14px}.status{background:#e8edf2;border-top:1px solid #dfe5eb;border-bottom:1px solid #dfe5eb}.status-inner{max-width:1100px;margin:auto;padding:25px 24px;display:flex;gap:13px;align-items:center}.dot{width:10px;height:10px;border-radius:50%;background:#ffb155;box-shadow:0 0 0 4px #ffb15533}.status strong{color:#334156}.status p{margin:1px 0 0;color:#748195;font-size:13px}.footer{background:var(--deep);color:#9ba8b9}.footer-inner{max-width:1100px;margin:auto;padding:25px 24px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;font-size:12px}.footer a{color:#c2d1df;text-decoration:none}.footer a:hover{color:white}@media(max-width:700px){.nav{padding:12px 18px;align-items:flex-start;flex-direction:column;gap:10px}.nav-links{width:100%;gap:16px;flex-wrap:wrap}.hero-inner{padding:65px 22px 72px}.cards{grid-template-columns:1fr}.section{padding:44px 20px}.status-inner{align-items:flex-start}.hero:after{right:-280px}}
-  </style>
+    <meta charset="utf-8">
+    <title>CatEngine - Home</title>
 </head>
-<body>
-  <header class="topbar"><nav class="nav" aria-label="Main navigation"><a class="brand" href="home.html"><span class="cat-icon" aria-hidden="true">◈</span> CATENGINE</a><div class="nav-links"><a href="home.html" aria-current="page">Home</a><a href="#features">Features</a><a href="login.html">Log in</a><a class="join" href="signup.html">Create account</a></div></nav></header>
-  <main>
-    <section class="hero"><div class="hero-inner"><div class="eyebrow">A new engine is taking shape</div><h1>Make games.<br><span>Make your mark.</span></h1><p>CATENGINE is an independent game engine in development, built for curious creators who want to turn little ideas into playable worlds.</p><div class="actions"><a class="button primary" href="signup.html">Join the early crew&nbsp; →</a><a class="button secondary" href="#features">Explore the project</a></div><div class="hero-note"><strong>Currently in development</strong> · Early access updates are on the way.</div></div></section>
-    <section class="section" id="features"><div class="section-heading"><h2>Small tools. Big possibilities.</h2><p>We’re laying the groundwork for a friendly, flexible place to build your next game.</p></div><div class="cards"><article class="card"><div class="card-icon" aria-hidden="true">🧩</div><h3>Made for making</h3><p>A creator-first workflow designed to keep your ideas moving from first sketch to first playable build.</p></article><article class="card"><div class="card-icon" aria-hidden="true">⚙️</div><h3>Built in the open</h3><p>CATENGINE is a work in progress. Follow along as features grow, change, and find their feet.</p></article><article class="card"><div class="card-icon" aria-hidden="true">🚀</div><h3>Your next starting point</h3><p>From tiny experiments to ambitious worlds, the best project is the one you’re excited to start.</p></article></div></section>
-    <section class="status"><div class="status-inner"><span class="dot" aria-hidden="true"></span><div><strong>Under construction — and moving forward.</strong><p>Sign up to hear when CATENGINE is ready for its next round of creators.</p></div></div></section>
-  </main>
-  <footer class="footer"><div class="footer-inner"><span>© 2017 CATENGINE · An independent project in progress.</span><span><a href="signup.html">Join the crew</a> &nbsp;·&nbsp; <a href="login.html">Member login</a></span></div></footer>
+<body style="margin: 0; background-color: #f4f6f9;">
+
+<h1 style="background-color:#4f81bd;border:4px solid #4f81bd;line-height:1.4;margin-bottom:0px;margin-top:6.67px;padding:5px 10px;">
+    <span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;">CATENGINE &nbsp;- &nbsp;</span></span><a target="_blank" rel="noopener noreferrer" href="http://cat-engine.vercel.app/home" style="color:#ffffff;text-decoration:none;"><span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;">HOME</span></span></a><span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;"> &nbsp; &nbsp;</span></span><a target="_blank" rel="noopener noreferrer" href="http://cat-engine.vercel.app/forums" style="color:#ffffff;text-decoration:none;"><span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;">FORUMS</span></span></a><span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;"> &nbsp; &nbsp;</span></span><a target="_blank" rel="noopener noreferrer" href="http://cat-engine.vercel.app/about" style="color:#ffffff;text-decoration:none;"><span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;">ABOUT</span></span></a><span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;"> &nbsp; &nbsp;</span></span><a target="_blank" rel="noopener noreferrer" href="http://cat-engine.vercel.app/clients/current.zip" style="color:#ffffff;text-decoration:none;"><span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;">DOWNLOAD</span></span></a><span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;"> &nbsp; &nbsp;</span></span><a target="_blank" rel="noopener noreferrer" href="http://cat-engine.vercel.app/login" style="color:#ffffff;text-decoration:none;"><span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;">LOG IN</span></span></a><span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;"> &nbsp; &nbsp;</span></span><a target="_blank" rel="noopener noreferrer" href="http://cat-engine.vercel.app/register" style="color:#ffffff;text-decoration:none;"><span style="color:#ffffff;font-family:Calibri, sans-serif;font-size:20px;"><span style="letter-spacing:1px;text-transform:uppercase;">SIGN UP</span></span></a>
+</h1>
+
+    <!-- Your Updated Content Box -->
+    <h2 style="background-color:#dbe5f1;border:4px solid #dbe5f1;line-height:1.4;margin-bottom:0px;margin-top:6.67px;padding:20px;">
+        <span style="font-family:Calibri, sans-serif;color:#1f497d;">
+            <!-- Welcome Title & Subtitle -->
+            <span style="font-size:22px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">WELCOME TO CATENGINE</span><br>
+            <span style="font-size:14px;color:#333333;">CATENGINE is epic trust me</span>
+            
+            <br><br><hr style="border:0;border-top:1px solid #4f81bd;"><br>
+
+            <!-- Quick Download Section -->
+            <span style="font-size:16px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">GET STARTED</span><br>
+            <span style="font-size:14px;color:#333333;">Download the latest engine release client to having fun:</span><br><br>
+            <a target="_blank" rel="noopener noreferrer" href="http://cat-engine.vercel.app/clients/current.zip" style="background-color:#4f81bd;color:#ffffff;padding:8px 16px;text-decoration:none;font-size:14px;font-weight:bold;display:inline-block;border-radius:3px;">DOWNLOAD CATENGINE V0.1</a>
+
+            <br><br><hr style="border:0;border-top:1px solid #4f81bd;"><br>
+
+            <!-- Engine Features -->
+            <span style="font-size:16px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">KEY FEATURES</span><br>
+            <ul style="font-size:14px;color:#333333;margin-top:5px;padding-left:20px;">
+                <li><b>LIGHTWEIGHT:</b> CATENGINE is about under a megabyte (October 20th 2026)</li>
+                <li><b>SIMPLE:</b> even my grandma could use it</li>
+                <li><b>OPEN-SOURCE:</b> just edit the file</li>
+            </ul>
+
+            <br><hr style="border:0;border-top:1px solid #4f81bd;"><br>
+
+            <!-- Recent Updates -->
+            <span style="font-size:16px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">LATEST NEWS</span><br>
+            <span style="font-size:13px;color:#333333;"><b>v0.1 Release:</b> CatEngine is live! Visit the <a target="_blank" rel="noopener noreferrer" href="http://cat-engine.vercel.app/forums" style="color:#4f81bd;">forums</a> to be epic.</span>
+        </span>
+    </h2>
+
 </body>
 </html>
